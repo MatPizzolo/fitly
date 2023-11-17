@@ -1,0 +1,708 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <div>
+      <link href="{% static 'css/index.css' %}" rel="stylesheet" />
+
+      <div class="landing-container">
+        <div class="landing-header">
+          <div class="landing-close">
+            <span class="landing-text">
+              Registrate ahora y obtén 20% de descuento en tu primer mes.
+            </span>
+            <img
+              alt="image"
+              src="{% static 'public/external/frame1447-aly8.svg' %}"
+              class="landing-image"
+            />
+          </div>
+          <div class="landing-cabecera">
+            <a href="/" class="landing-navlink">
+              <div class="landing-logo">
+                <img
+                  alt="gymlogo2png11441"
+                  src="{% static 'public/external/gymlogo2png11441-szuo-200h.png' %}"
+                  class="landing-gymlogo2png1"
+                />
+                <span class="landing-text001"><span>FITLY GYM</span></span>
+              </div>
+            </a>
+            <div class="landing-men">
+              <a href="clases.html" class="landing-navlink1">
+                <div class="landing-clases">
+                  <span class="landing-text003"><span>Clases</span></span>
+                </div>
+              </a>
+              <a href="tarifas.html" class="landing-text005">
+                <span>Tarifas</span>
+              </a>
+              <a href="instalaciones.html" class="landing-text007">
+                <span>Instalaciones</span>
+              </a>
+              <a href="contacto.html" class="landing-text009">
+                <span>Contacto</span>
+              </a>
+            </div>
+            {% if user.is_authenticated %}
+              <div>
+              <p>Welcome, {{ user.username }}!</p>
+            </div>
+            {% else %}
+              <p>Please log in</p>
+              <!-- Login form or other content for non-authenticated users -->
+              
+              <a href="/login" class="landing-navlink2">
+                <div class="landing-acceso">
+                  <span class="landing-text011">Login</span>
+                </div>
+              </a>
+              <a href="/registro" class="landing-navlink3">
+                <div class="landing-registro">
+                  <span class="landing-text012"><span>REGISTRATE</span></span>
+                </div>
+              </a>
+            </div>
+            {% endif %}
+          <img
+            alt="Line41448"
+            src="{% static 'public/external/line41448-v4is.svg' %}"
+            class="landing-line"
+          />
+        </div>
+        <div class="landing-body">
+          <div class="landing-container1">
+            <div class="landing-rectangle2">
+              <div class="landing-container2">
+                <span class="landing-text014">
+                  <span>Más que un Gimnasio, una Vida en Forma.</span>
+                </span>
+                <span class="landing-text016">
+                  <span>
+                    Más de 2.100 m2 a tu disposición con actividades y servicios
+                    como Musculación guiada y libre, Cardio Conectado, Cycle
+                    Park, Clases Colectivas con Coach o virtuales.
+                  </span>
+                </span>
+                <div class="landing-frame57">
+                  <img
+                    alt="Line92234"
+                    src="{% static 'public/external/line92234-pbt7.svg' %}"
+                    class="landing-line9"
+                  />
+                  <div class="landing-frame54">
+                    <span class="landing-text018"><span>200+</span></span>
+                    <span class="landing-text020"><span>Máquinas</span></span>
+                  </div>
+                  <img
+                    alt="Line102234"
+                    src="{% static 'public/external/line102234-0op3i.svg' %}"
+                    class="landing-line10"
+                  />
+                  <div class="landing-frame56">
+                    <span class="landing-text022">3000+</span>
+                    <span class="landing-text023">Miembros registrados</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="landing-go-for-it">
+              <span class="landing-go-for-it1"><span>GO FOR IT</span></span>
+              <span class="landing-go-for-it2"><span>GO FOR IT</span></span>
+              <span class="landing-go-for-it3"><span>GO FOR IT</span></span>
+              <span class="landing-go-for-it4"><span>GO FOR IT</span></span>
+            </div>
+            <div class="landing-transformacion">
+              <span class="landing-text028">
+                <span>Fitly tu lugar de transformación</span>
+              </span>
+              <div class="landing-container3">
+                <span class="landing-text030">
+                  <span>
+                    Más de 2.100 m2 a tu disposición con actividades y servicios
+                    como Musculación guiada y libre, Cardio Conectado, Cycle
+                    Park, Clases Colectivas con Coach o virtuales, espacio Cross
+                    Training, espacio BURNING PARK dedicado a actividades de
+                    alta intensidad o HIIT, área de hidratación de bebidas...
+                    así como un espacio destinado al boxeo, FIGHT PARK con ring
+                    y sacos.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    ¿Problemas con los horarios? Nuestro gym está abierto los 7
+                    días de la semana, horario habitual de 6:00 am a 1:00 am*,
+                    abiertos 365 días del año! ¡No tendrás excusas!
+                  </span>
+                </span>
+                <img
+                  alt="Screenshot111114"
+                  src="{% static 'public/external/screenshot111114-6rgd-700w.png' %}"
+                  class="landing-screenshot11"
+                />
+              </div>
+            </div>
+            <div class="landing-generacion">
+              <div class="landing-frame60">
+                <div class="landing-container4">
+                  <span class="landing-text035">
+                    <span>GIMNASIO de Última Generación</span>
+                  </span>
+                  <div class="landing-container5">
+                    <div class="landing-frame61">
+                      <img
+                        alt="image"
+                        src="{% static 'public/external/image112269-k8mv-400h.png' %}"
+                        class="landing-image1"
+                      />
+                    </div>
+                    <div class="landing-frame62">
+                      <img
+                        alt="image"
+                        src="{% static 'public/external/image132270-487-400h.png' %}"
+                        class="landing-image2"
+                      />
+                    </div>
+                  </div>
+                  <div class="landing-container6">
+                    <div class="landing-frame64">
+                      <img
+                        alt="image122270"
+                        src="{% static 'public/external/image122270-0hbc-400h.png' %}"
+                        class="landing-image12"
+                      />
+                    </div>
+                    <div class="landing-frame63">
+                      <img
+                        alt="image142271"
+                        src="{% static 'public/external/image142271-6f7-400h.png' %}"
+                        class="landing-image14"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="landing-container7">
+              <span class="landing-text037">
+                <span>FITLY ES EL GIMNASIO PARA TI</span>
+              </span>
+              <div class="landing-container8">
+                <div class="landing-frame22">
+                  <div class="landing-frame30">
+                    <div class="landing-frame29">
+                      <div class="landing-frame10">
+                        <img
+                          alt="Star12471"
+                          src="{% static 'public/external/star12471-6ctd.svg' %}"
+                          class="landing-star1"
+                        />
+                        <img
+                          alt="Star22471"
+                          src="{% static 'public/external/star22471-8ofr.svg' %}"
+                          class="landing-star2"
+                        />
+                        <img
+                          alt="Star32472"
+                          src="{% static 'public/external/star32472-wmjt.svg' %}"
+                          class="landing-star3"
+                        />
+                        <img
+                          alt="Star42472"
+                          src="{% static 'public/external/star42472-wbie.svg' %}"
+                          class="landing-star4"
+                        />
+                        <img
+                          alt="Star52481"
+                          src="{% static 'public/external/star52481-5p5g.svg' %}"
+                          class="landing-star5"
+                        />
+                      </div>
+                      <div class="landing-frame28">
+                        <div>
+                          <span class="landing-text039">
+                            <span>Sarah M.</span>
+                          </span>
+                          <img
+                            alt="Frame2472"
+                            src="{% static 'public/external/frame2472-e7cr.svg' %}"
+                            class="landing-frame"
+                          />
+                        </div>
+                        <span class="landing-text041">
+                          <span>
+                            "La limpieza es una prioridad. El gimnasio está
+                            impecablemente limpio, y se nota que se toman muy en
+                            serio la sanitización y la higiene, lo que es
+                            especialmente importante en el mundo actual.”
+                          </span>
+                          <br />
+                          <br />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-frame611">
+                  <div class="landing-frame301">
+                    <div class="landing-frame291">
+                      <div class="landing-frame101">
+                        <img
+                          alt="Star12477"
+                          src="{% static 'public/external/star12477-kvof.svg' %}"
+                          class="landing-star11"
+                        />
+                        <img
+                          alt="Star22477"
+                          src="{% static 'public/external/star22477-mlzp.svg' %}"
+                          class="landing-star21"
+                        />
+                        <img
+                          alt="Star32477"
+                          src="{% static 'public/external/star32477-j3db.svg' %}"
+                          class="landing-star31"
+                        />
+                        <img
+                          alt="Star42477"
+                          src="{% static 'public/external/star42477-fr7j.svg' %}"
+                          class="landing-star41"
+                        />
+                        <img
+                          alt="Star52481"
+                          src="{% static 'public/external/star52481-ti9s.svg' %}"
+                          class="landing-star51"
+                        />
+                      </div>
+                      <div class="landing-frame281">
+                        <div class="landing-frame311">
+                          <span class="landing-text045">
+                            <span>Alex K.</span>
+                          </span>
+                          <img
+                            alt="Frame2478"
+                            src="{% static 'public/external/frame2478-181.svg' %}"
+                          />
+                        </div>
+                        <span class="landing-text047">
+                          <span>
+                            "Si te tomas en serio alcanzar tus metas de fitness,
+                            Fitly es el lugar ideal. Ofrecen programas de
+                            entrenamiento personalizados y orientación para
+                            ayudarte a alcanzar tus objetivos.”
+                          </span>
+                          <br />
+                          <br />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-frame621">
+                  <div class="landing-frame302">
+                    <div class="landing-frame292">
+                      <div class="landing-frame102">
+                        <img
+                          alt="Star12479"
+                          src="{% static 'public/external/star12479-dr8q.svg' %}"
+                          class="landing-star12"
+                        />
+                        <img
+                          alt="Star22479"
+                          src="{% static 'public/external/star22479-8v2c.svg' %}"
+                          class="landing-star22"
+                        />
+                        <img
+                          alt="Star32479"
+                          src="{% static 'public/external/star32479-iqek.svg' %}"
+                          class="landing-star32"
+                        />
+                        <img
+                          alt="Star42479"
+                          src="{% static 'public/external/star42479-ugoj.svg' %}"
+                          class="landing-star42"
+                        />
+                        <img
+                          alt="Star52482"
+                          src="{% static 'public/external/star52482-ojk.svg' %}"
+                          class="landing-star52"
+                        />
+                      </div>
+                      <div class="landing-frame282">
+                        <div class="landing-frame312">
+                          <span class="landing-text051">
+                            <span>James L.</span>
+                          </span>
+                          <img
+                            alt="Frame2480"
+                            src="{% static 'public/external/frame2480-p3pd.svg' %}"
+                          />
+                        </div>
+                        <span class="landing-text053">
+                          "Fitly siempre está buscando formas de mejorar la
+                          experiencia de sus miembros. Actualizan regularmente
+                          su equipo e introducen nuevas clases para mantener las
+                          cosas frescas y emocionantes.”
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="landing-footer">
+          <div class="landing-info">
+            <span class="landing-text054">
+              <span>ESCOGE EL PLAN QUE MAS&nbsp;</span>
+              <span>SE ADAPTE A TI</span>
+            </span>
+            <div class="landing-frame46">
+              <div>
+                <img
+                  alt="Frame2935"
+                  src="{% static 'public/external/frame2935-8d8.svg' %}"
+                  class="landing-frame3"
+                />
+                <span class="landing-text057">
+                  <span>Introduce tu email</span>
+                </span>
+              </div>
+              <div class="landing-frame4">
+                <span class="landing-text059">
+                  <span>Recibe información</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="landing-enlaces">
+            <div class="landing-frame51">
+              <div class="landing-frame50">
+                <img
+                  alt="gymlogo2png12935"
+                  src="{% static 'public/external/gymlogo2png12935-heao-200h.png' %}"
+                  class="landing-gymlogo2png11"
+                />
+                <span class="landing-text061"><span>FITLY GYM</span></span>
+              </div>
+              <div class="landing-social">
+                <div class="landing-frame1">
+                  <img
+                    alt="BG2935"
+                    src="{% static 'public/external/bg2935-rhte-200h.png' %}"
+                    class="landing-bg"
+                  />
+                  <div class="landing-logotwitter2">
+                    <div class="landing-group">
+                      <img
+                        alt="Vector2935"
+                        src="{% static 'public/external/vector2935-w6rp.svg' %}"
+                        class="landing-vector"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-frame2">
+                  <img
+                    alt="BG2935"
+                    src="{% static 'public/external/bg2935-5ru-200h.png' %}"
+                    class="landing-bg1"
+                  />
+                  <div class="landing-logofbsimple2">
+                    <div class="landing-group1">
+                      <img
+                        alt="Vector2935"
+                        src="{% static 'public/external/vector2935-ycn.svg' %}"
+                        class="landing-vector1"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-frame31">
+                  <img
+                    alt="BG2935"
+                    src="{% static 'public/external/bg2935-1xk-200h.png' %}"
+                    class="landing-bg2"
+                  />
+                  <div class="landing-logoinstagram1">
+                    <div class="landing-group2">
+                      <img
+                        alt="Vector2935"
+                        src="{% static 'public/external/vector2935-ran.svg' %}"
+                        class="landing-vector2"
+                      />
+                      <img
+                        alt="Vector2935"
+                        src="{% static 'public/external/vector2935-b8ds.svg' %}"
+                        class="landing-vector3"
+                      />
+                      <img
+                        alt="Vector2935"
+                        src="{% static 'public/external/vector2935-j3hn.svg' %}"
+                        class="landing-vector4"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="landing-frame41">
+                  <img
+                    alt="BG2935"
+                    src="{% static 'public/external/bg2935-e98-200h.png' %}"
+                    class="landing-bg3"
+                  />
+                  <div class="landing-logogithub1">
+                    <div class="landing-group3">
+                      <img
+                        alt="Vector2935"
+                        src="{% static 'public/external/vector2935-dvkr.svg' %}"
+                        class="landing-vector5"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="landing-frame47">
+              <span class="landing-text063"><span>SERVICIOS</span></span>
+              <span class="landing-text065">
+                <span>
+                  <span>Atención al cliente</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Servicios del Club</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Pase diario</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Reglamento intero</span>
+                </span>
+              </span>
+            </div>
+            <div class="landing-frame52">
+              <span class="landing-text080"><span>Acerca de</span></span>
+              <span class="landing-text082">
+                <span>
+                  <span>Nuestra visión</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Horarios</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Trabaja con nosotros</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>Colaboraciones</span>
+                </span>
+              </span>
+            </div>
+            <div class="landing-frame49">
+              <span class="landing-text097"><span>GIMNASIOS</span></span>
+              <span class="landing-text099">
+                <span>
+                  <span>Madrid</span>
+                  <br />
+                  <span></span>
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="landing-final">
+            <span class="landing-text104">
+              <span>fitly. © 2000-2023, All Rights Reserved</span>
+            </span>
+            <div class="landing-frame53">
+              <img
+                alt="Badge2935"
+                src="{% static 'public/external/badge2935-4un.svg' %}"
+                class="landing-badge"
+              />
+              <img
+                alt="Badge2935"
+                src="{% static 'public/external/badge2935-efxe.svg' %}"
+                class="landing-badge1"
+              />
+              <img
+                alt="Badge2935"
+                src="{% static 'public/external/badge2935-7fbc.svg' %}"
+                class="landing-badge2"
+              />
+              <img
+                alt="Badge2935"
+                src="{% static 'public/external/badge2935-kc3o.svg' %}"
+                class="landing-badge3"
+              />
+              <img
+                alt="Badge2935"
+                src="{% static 'public/external/badge2935-a19e.svg' %}"
+                class="landing-badge4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,512 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Login - exported project</title>
+    <meta property="og:title" content="Login - exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <div>
+      <link href="{% static 'css/login.css' %}" rel="stylesheet" />
+
+      <div class="login-container">
+        <div class="login-login">
+          <div class="login-header">
+            <div class="login-close">
+              <span class="login-text">
+                Registrate ahora y obtén 20% de descuento en tu primer mes.
+              </span>
+              <img
+                alt="image"
+                src="{% static 'public/external/frame1447-aly8.svg' %}"
+                class="login-image"
+              />
+            </div>
+            <div class="login-cabecera">
+              <a href="/" class="login-navlink">
+                <div class="login-logo">
+                  <img
+                    alt="gymlogo2png11441"
+                    src="{% static 'public/external/gymlogo2png11441-szuo-200h.png' %}"
+                    class="login-gymlogo2png1"
+                  />
+                  <span class="login-text01"><span>FITLY GYM</span></span>
+                </div>
+              </a>
+              <div class="login-men">
+                <a href="clases.html" class="login-navlink1">
+                  <div class="login-clases">
+                    <span class="login-text03"><span>Clases</span></span>
+                  </div>
+                </a>
+                <a href="tarifas.html" class="login-text05">
+                  <span>Tarifas</span>
+                </a>
+                <a href="instalaciones.html" class="login-text07">
+                  <span>Instalaciones</span>
+                </a>
+                <a href="contacto.html" class="login-text09">
+                  <span>Contacto</span>
+                </a>
+              </div>
+              <a href="/login" class="login-navlink2">
+                <div class="login-acceso">
+                  <span class="login-text11">Login</span>
+                </div>
+              </a>
+              <a href="/registro" class="login-navlink3">
+                <div class="login-registro">
+                  <span class="login-text12"><span>REGISTRATE</span></span>
+                </div>
+              </a>
+            </div>
+            <img
+              alt="Line41448"
+              src="{% static 'public/external/line41448-v4is.svg' %}"
+              class="login-line"
+            />
+          </div>
+          <div class="login-body">
+            <div class="login-pagina">
+              <div class="login-frame7">
+                <a href="/" class="login-text14"><span>Home</span></a>
+                <img
+                  alt="Frame2855"
+                  src="{% static 'public/external/frame2855-zrgm.svg' %}"
+                  class="login-frame"
+                />
+              </div>
+              <span class="login-text16">
+                <span>Login</span>
+                <br />
+              </span>
+            </div>
+            <div class="login-container1" style="width: auto;">
+              <!-- <form method="post" style="width: max-width;">
+                {% csrf_token %}
+                <div class="login-container1">
+                  <span class="login-text19">Acceso Usuarios</span>
+                  <span class="login-text20">
+                    Introduce tu usuario y contraseña
+                  </span>
+                  <input
+                    type="text"
+                    name="username"
+                    placeholder="Usuario"
+                    class="login-textinput input"
+                  />
+                  <input
+                    type="password"
+                    name="password"
+                    placeholder="Contraseña"
+                    class="login-textinput1 input"
+                  />
+                  <button type="submit" class="login-navlink4 button">
+                    <span>
+                      <span>Acceder</span>
+                      <br />
+                    </span>
+                  </button>
+                </div>
+              </form>               -->
+              <form method="post" class="form">
+                  {% csrf_token %}
+                  
+                  {% if form.errors %}
+                      <div class="alert alert-danger" role="alert">
+                          Incorrect username or password. Please try again.
+                      </div>
+                  {% endif %}
+              
+                  <div class="mb-3">
+                      {{ form.username.label_tag }}
+                      {{ form.username }}
+                  </div>
+              
+                  <div class="mb-3">
+                      {{ form.password.label_tag }}
+                      {{ form.password }}
+                  </div>
+                  {% if form.errors %}
+                    <div class="alert alert-danger">
+                        {{ form.errors }}
+                    </div>
+                {% endif %}
+                  <button type="submit" class="btn btn-primary">Login</button>
+              </form>
+          
+            
+              <a href="/registro" class="login-navlink5">
+                <span class="login-text24">
+                  Si aún no eres usuario, puedes registarte
+                </span>
+                <span></span>
+                <span>aquí</span>
+                <span>.</span>
+              </a>
+              <span class="login-text28">
+                <span>¿Has olvidado tu contraseña?</span>
+                <br />
+              </span>
+              <a href="recuperar-contrasea.html" class="login-text31">
+                <span class="login-text32">
+                  Para recuperar la contraseña pulsa
+                </span>
+                <span></span>
+                <span>aquí</span>
+                <span>.</span>
+              </a>
+              <div class="login-container2"></div>
+            </div>
+          </div>
+          <div class="login-footer">
+            <div class="login-info">
+              <span class="login-text36">
+                <span>ESCOGE EL PLAN QUE MAS&nbsp;</span>
+                <span>SE ADAPTE A TI</span>
+              </span>
+              <div class="login-frame46">
+                <div class="login-frame3">
+                  <img
+                    alt="Frame2935"
+                    src="{% static 'public/external/frame2935-8d8.svg' %}"
+                  />
+                  <span class="login-text39">
+                    <span>Introduce tu email</span>
+                  </span>
+                </div>
+                <div class="login-frame4">
+                  <span class="login-text41">
+                    <span>Recibe información</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="login-enlaces">
+              <div class="login-frame51">
+                <div class="login-frame50">
+                  <img
+                    alt="gymlogo2png12935"
+                    src="{% static 'public/external/gymlogo2png12935-heao-200h.png' %}"
+                    class="login-gymlogo2png11"
+                  />
+                  <span class="login-text43"><span>FITLY GYM</span></span>
+                </div>
+                <div class="login-social">
+                  <div class="login-frame1">
+                    <img
+                      alt="BG2935"
+                      src="{% static 'public/external/bg2935-rhte-200h.png' %}"
+                      class="login-bg"
+                    />
+                    <div class="login-logotwitter2">
+                      <div class="login-group">
+                        <img
+                          alt="Vector2935"
+                          src="{% static 'public/external/vector2935-w6rp.svg' %}"
+                          class="login-vector"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="login-frame2">
+                    <img
+                      alt="BG2935"
+                      src="{% static 'public/external/bg2935-5ru-200h.png' %}"
+                      class="login-bg1"
+                    />
+                    <div class="login-logofbsimple2">
+                      <div class="login-group1">
+                        <img
+                          alt="Vector2935"
+                          src="{% static 'public/external/vector2935-ycn.svg' %}"
+                          class="login-vector1"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="login-frame31">
+                    <img
+                      alt="BG2935"
+                      src="{% static 'public/external/bg2935-1xk-200h.png' %}"
+                      class="login-bg2"
+                    />
+                    <div class="login-logoinstagram1">
+                      <div class="login-group2">
+                        <img
+                          alt="Vector2935"
+                          src="{% static 'public/external/vector2935-ran.svg' %}"
+                          class="login-vector2"
+                        />
+                        <img
+                          alt="Vector2935"
+                          src="{% static 'public/external/vector2935-b8ds.svg' %}"
+                          class="login-vector3"
+                        />
+                        <img
+                          alt="Vector2935"
+                          src="{% static 'public/external/vector2935-j3hn.svg' %}"
+                          class="login-vector4"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="login-frame41">
+                    <img
+                      alt="BG2935"
+                      src="{% static 'public/external/bg2935-e98-200h.png' %}"
+                      class="login-bg3"
+                    />
+                    <div class="login-logogithub1">
+                      <div class="login-group3">
+                        <img
+                          alt="Vector2935"
+                          src="{% static 'public/external/vector2935-dvkr.svg' %}"
+                          class="login-vector5"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="login-frame47">
+                <span class="login-text45"><span>SERVICIOS</span></span>
+                <span class="login-text47">
+                  <span>
+                    <span>Atención al cliente</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>Servicios del Club</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>Pase diario</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>Reglamento intero</span>
+                  </span>
+                </span>
+              </div>
+              <div class="login-frame52">
+                <span class="login-text62"><span>Acerca de</span></span>
+                <span class="login-text64">
+                  <span>
+                    <span>Nuestra visión</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>Horarios</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>Trabaja con nosotros</span>
+                    <br />
+                    <span></span>
+                    <br />
+                    <span>Colaboraciones</span>
+                  </span>
+                </span>
+              </div>
+              <div class="login-frame49">
+                <span class="login-text79"><span>GIMNASIOS</span></span>
+                <span class="login-text81">
+                  <span>
+                    <span>Madrid</span>
+                    <br />
+                    <span></span>
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="login-final">
+              <span class="login-text86">
+                <span>fitly. © 2000-2023, All Rights Reserved</span>
+              </span>
+              <div class="login-frame53">
+                <img
+                  alt="Badge2935"
+                  src="{% static 'public/external/badge2935-4un.svg' %}"
+                  class="login-badge"
+                />
+                <img
+                  alt="Badge2935"
+                  src="{% static 'public/external/badge2935-efxe.svg' %}"
+                  class="login-badge1"
+                />
+                <img
+                  alt="Badge2935"
+                  src="{% static 'public/external/badge2935-7fbc.svg' %}"
+                  class="login-badge2"
+                />
+                <img
+                  alt="Badge2935"
+                  src="{% static 'public/external/badge2935-kc3o.svg' %}"
+                  class="login-badge3"
+                />
+                <img
+                  alt="Badge2935"
+                  src="{% static 'public/external/badge2935-a19e.svg' %}"
+                  class="login-badge4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
